@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.problems {
+  width: 30%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nextbtn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.textarea-container{
+  margin-bottom: 20px;
+}
+
+.checkbox-container, .radiobutton-container{
+  margin: 20px;
+}
